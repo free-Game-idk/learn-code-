@@ -11,6 +11,10 @@
             background-position: center;
             background-repeat: no-repeat;
         }
+        img {
+            width: 100px;
+            border-radius: 10px;
+        }
         p.username {
             font-weight: bold;
         }
@@ -18,19 +22,31 @@
             color: red;
             font-style: normal;
         }
-        table {
+        .rounded-box {
+            width: fit-content;
             border: 2px solid black;
-            padding: 16px;
-            margin: 20px;
+            border-radius: 20px;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        table {
+            border: none;
+            text-align: center;
+        }
+        a:hover {
+            color: yellow;
         }
     </style>
 </head>
 <body>
-    <table border="1">
-        <tr>
-            <td>learn some code ！！！！</td>
-        </tr>
-    </table>
+    <img src="images/idk.jpg" alt="An image of Mosh Hamedani"/>
+    <div class="rounded-box">
+        <table>
+            <tr>
+                <td>我想学一些代码！！！！</td>
+            </tr>
+        </table>
+    </div>
     <p class="username">@Yuchen</p>
     <p>I like to <em>code</em> !!! 0w0</p>
     <h4>I don't know ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !</h4>
